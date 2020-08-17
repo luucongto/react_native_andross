@@ -44,7 +44,7 @@ export const startupSuccess = (state, { data }) => {
 }
 */
 
-export const startupFailure = (state, { error }) => state.merge({ fetching: false, error})
+export const startupFailure = (state, { error }) => state.merge({ fetching: false, error })
 
 /* ------------- Hookup Reducers To Types ------------- */
 

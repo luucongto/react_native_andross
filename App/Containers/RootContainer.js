@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import { View, StatusBar, SafeAreaView } from 'react-native'
+import { StatusBar, SafeAreaView } from 'react-native'
 import { Root } from 'native-base'
-import ReduxNavigation from '../Navigation/ReduxNavigation'
+import AppNavigation from '../Navigation/AppNavigation'
 import { connect } from 'react-redux'
 import StartupActions from '../Redux/StartupRedux'
 import ReduxPersist from '../Config/ReduxPersist'
@@ -24,7 +24,7 @@ class RootContainer extends Component {
       <Root>
         <SafeAreaView style={styles.applicationView}>
           {/* <StatusBar barStyle='light-content' /> */}
-          <ReduxNavigation />
+          <AppNavigation />
         </SafeAreaView>
       </Root>
     )

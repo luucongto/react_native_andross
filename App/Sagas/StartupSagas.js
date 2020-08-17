@@ -1,8 +1,8 @@
 import { put, select } from 'redux-saga/effects'
 import { loginTokenSelector } from '../Redux/LoginRedux'
 import StartupActions from '../Redux/StartupRedux'
-import { is } from 'ramda'
-import Utils from '../Containers/Utils'
+// import { is } from 'ramda'
+// import Utils from '../Containers/Utils'
 // exported to make available for tests
 // process STARTUP actions
 export function * startup (api) {

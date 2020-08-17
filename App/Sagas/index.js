@@ -1,6 +1,6 @@
 import { takeLatest, all } from 'redux-saga/effects'
 import API from '../Services/Api'
-import DebugConfig from '../Config/DebugConfig'
+// import DebugConfig from '../Config/DebugConfig'
 
 /* ------------- Types ------------- */
 import { UserTypes } from '../Redux/UserRedux'

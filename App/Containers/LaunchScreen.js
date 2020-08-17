@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
-import { Text, Image, View } from 'react-native'
+import { Text, View } from 'react-native'
 import { connect } from 'react-redux'
-import { Button } from 'native-base'
 // import DevscreensButton from '../../ignite/DevScreens/DevscreensButton.js'
 
-import { Images, Metrics } from '../Themes'
+// import { Images, Metrics } from '../Themes'
 
 import I18n from 'react-native-i18n'
-import Utils from './Utils'
+// import Utils from './Utils'
 // Styles
 import styles from './Styles/LaunchScreenStyles'
 

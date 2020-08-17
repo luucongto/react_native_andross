@@ -1,7 +1,7 @@
 import { call, put } from 'redux-saga/effects'
 import UserActions from '../Redux/UserRedux'
 import LoginActions from '../Redux/LoginRedux'
-export function * user (api, {params}) {
+export function * user (api, { params }) {
   try {
     const res = yield call(api, params)
     if (res && res.message === 'Unauthenticated.') {

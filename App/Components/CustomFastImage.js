@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Image } from 'react-native'
 import FastImage from 'react-native-fast-image'
 import autoBind from 'react-autobind'
 import Utils from '../Containers/Utils'

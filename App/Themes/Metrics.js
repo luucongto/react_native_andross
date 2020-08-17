@@ -1,5 +1,5 @@
 import { Dimensions, Platform } from 'react-native'
-import { Metrics } from '.'
+// import { Metrics } from '.'
 
 const { width, height } = Dimensions.get('window')
 const aspectRatio = height > width ? height / width : width / height

@@ -30,7 +30,7 @@ class API {
         message: 'Network Error.'
       }
     }
-    if(data.status === 401){
+    if (data.status === 401) {
       this.authenticated(null)
       return {
         error: 1,
@@ -102,7 +102,6 @@ class API {
   }
 
   // Custom API ---------------------------------------------------------
-
 }
 
 const api = new API()
